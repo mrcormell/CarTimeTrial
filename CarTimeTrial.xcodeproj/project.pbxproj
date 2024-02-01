@@ -14,6 +14,7 @@
 		B424C5FB2B6BE0950018B15F /* CarTimeTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424C5FA2B6BE0950018B15F /* CarTimeTrialTests.swift */; };
 		B424C6052B6BE0950018B15F /* CarTimeTrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424C6042B6BE0950018B15F /* CarTimeTrialUITests.swift */; };
 		B424C6072B6BE0950018B15F /* CarTimeTrialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424C6062B6BE0950018B15F /* CarTimeTrialUITestsLaunchTests.swift */; };
+		B424C6162B6BE32B0018B15F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B424C6152B6BE32B0018B15F /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B424C6002B6BE0950018B15F /* CarTimeTrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarTimeTrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B424C6042B6BE0950018B15F /* CarTimeTrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTimeTrialUITests.swift; sourceTree = "<group>"; };
 		B424C6062B6BE0950018B15F /* CarTimeTrialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTimeTrialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B424C6152B6BE32B0018B15F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		B424C5E82B6BE0940018B15F /* CarTimeTrial */ = {
 			isa = PBXGroup;
 			children = (
+				B424C6142B6BE31F0018B15F /* Model */,
+				B424C6132B6BE31A0018B15F /* View */,
 				B424C5E92B6BE0940018B15F /* CarTimeTrialApp.swift */,
-				B424C5EB2B6BE0940018B15F /* ContentView.swift */,
 				B424C5ED2B6BE0950018B15F /* Assets.xcassets */,
 				B424C5EF2B6BE0950018B15F /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				B424C6062B6BE0950018B15F /* CarTimeTrialUITestsLaunchTests.swift */,
 			);
 			path = CarTimeTrialUITests;
+			sourceTree = "<group>";
+		};
+		B424C6132B6BE31A0018B15F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B424C5EB2B6BE0940018B15F /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B424C6142B6BE31F0018B15F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B424C6152B6BE32B0018B15F /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				B424C5EC2B6BE0940018B15F /* ContentView.swift in Sources */,
 				B424C5EA2B6BE0940018B15F /* CarTimeTrialApp.swift in Sources */,
+				B424C6162B6BE32B0018B15F /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
